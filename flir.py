@@ -91,11 +91,11 @@ class CustomDataset(utils.Dataset):
         """
         # Add classes. We have only one class to add.
         self.add_class("flir", 1, "Dog")
-         self.add_class("flir", 2, "Person")
-          self.add_class("flir", 3, "Car")
-           self.add_class("flir", 4, "Chair")
-            self.add_class("flir", 5, "Table")
-             self.add_class("flir", 6, "Sofa")
+        self.add_class("flir", 2, "Person")
+        self.add_class("flir", 3, "Car")
+        self.add_class("flir", 4, "Chair")
+        self.add_class("flir", 5, "Table")
+        self.add_class("flir", 6, "Sofa")
 
         # Train or validation dataset?
         assert subset in ["train", "val"]
